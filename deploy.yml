@@ -32,7 +32,7 @@ spec:
       serviceAccountName: cjoc
       containers:
       - name: gbauss-cd
-        image: gcr.io/core-workshop/helloworld-nodejs:gbauss-cd-3
+        image: gcr.io/core-workshop/helloworld-nodejs:gbauss-cd-4
         resources:
           requests:
             memory: "100Mi"
